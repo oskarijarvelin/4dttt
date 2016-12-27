@@ -1,10 +1,11 @@
 class Square:
 	
 	def __init__(self, coords):
-		pass
+		self.value = ""
+        self.coords = coords
 		
-	def add_mark(self, player):
-		pass
+	def add_mark(self, player):		
+        self.value = player.mark
 	
 class Line:
 	
